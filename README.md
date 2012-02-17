@@ -6,6 +6,15 @@ UIImageView subclass which allows to change color of the image via tap gesture:
 [![](https://github.com/ap4y/iMagickWand/blob/master/readme_img/before.png?raw=true)](https://github.com/ap4y/iMagickWand/blob/master/readme_img/before.png?raw=true)
 [![](https://github.com/ap4y/iMagickWand/blob/master/readme_img/after.png?raw=true)](https://github.com/ap4y/iMagickWand/blob/master/readme_img/after.png?raw=true)
 
+## Usage ##
+Same as regular UIImageView, just set:
+@property(nonatomic, retain) UIColor* color;
+@property(nonatomic) int tolerance;
+
+and it will be ready to your taps. Optionally implement MWImageViewDelegate and recieve:
+-(void)imageViewDidStartedProcessing:(MWImageView*)imageView;
+-(void)imageViewDidFinishedProcessing:(MWImageView*)imageView;
+
 Credits
 -------
 
