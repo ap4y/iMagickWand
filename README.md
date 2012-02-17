@@ -11,8 +11,7 @@ UIImageView subclass which allows to change color of the image via tap gesture:
     Same as regular UIImageView, just set:
         @property(nonatomic, retain) UIColor* color;
         @property(nonatomic) int tolerance;
-
-    and it will be ready to your taps. Optionally implement MWImageViewDelegate and recieve:
+    and it will be ready to receive your taps. Optionally implement MWImageViewDelegate and receive:
         -(void)imageViewDidStartedProcessing:(MWImageView*)imageView;
         -(void)imageViewDidFinishedProcessing:(MWImageView*)imageView;
 
