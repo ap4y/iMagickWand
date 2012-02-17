@@ -3,8 +3,8 @@ iMagickWand
 
 UIImageView subclass which allows to change color of the image via tap gesture:
 
-[![](http://ap4y.github.com/IMG_0028.PNG)](http://ap4y.github.com/IMG_0028.PNG)
-[![](http://ap4y.github.com/IMG_0029.PNG)](http://ap4y.github.com/IMG_0029.PNG)
+[![](https://github.com/ap4y/iMagickWand/blob/master/readme_img/before.png?raw=true)](https://github.com/ap4y/iMagickWand/blob/master/readme_img/before.png?raw=true)
+[![](https://github.com/ap4y/iMagickWand/blob/master/readme_img/after.png?raw=true)](https://github.com/ap4y/iMagickWand/blob/master/readme_img/after.png?raw=true)
 
 Credits
 -------
