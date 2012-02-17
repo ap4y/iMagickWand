@@ -1,0 +1,3 @@
+[submodule "imagemagick_lib_iphone"]
+	path = imagemagick_lib_iphone
+	url = https://github.com/marforic/imagemagick_lib_iphone

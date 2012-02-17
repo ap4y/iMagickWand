@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MWImageView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <MWImageViewDelegate> {
+    
+    IBOutlet UIActivityIndicatorView *_spinner;
+    IBOutlet MWImageView *imageView;
+}
 
 @end

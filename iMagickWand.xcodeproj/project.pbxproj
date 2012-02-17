@@ -15,6 +15,13 @@
 		95DFDC9D14EE7E1300DA84E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DFDC9C14EE7E1300DA84E1 /* AppDelegate.m */; };
 		95DFDCA014EE7E1400DA84E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DFDC9F14EE7E1400DA84E1 /* ViewController.m */; };
 		95DFDCA314EE7E1400DA84E1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95DFDCA114EE7E1400DA84E1 /* ViewController.xib */; };
+		95DFDCB514EE810F00DA84E1 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DFDCB014EE810E00DA84E1 /* libjpeg.a */; };
+		95DFDCB614EE810F00DA84E1 /* libMagickCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DFDCB114EE810E00DA84E1 /* libMagickCore.a */; };
+		95DFDCB714EE810F00DA84E1 /* libMagickWand.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DFDCB214EE810F00DA84E1 /* libMagickWand.a */; };
+		95DFDCB814EE810F00DA84E1 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DFDCB314EE810F00DA84E1 /* libpng.a */; };
+		95DFDCB914EE810F00DA84E1 /* libtiff.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DFDCB414EE810F00DA84E1 /* libtiff.a */; };
+		95DFDCBD14EE825D00DA84E1 /* MWImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DFDCBC14EE825C00DA84E1 /* MWImageView.m */; };
+		95DFDCC714EE95D500DA84E1 /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 95DFDCC614EE95D500DA84E1 /* iphone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +38,14 @@
 		95DFDC9E14EE7E1300DA84E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		95DFDC9F14EE7E1400DA84E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		95DFDCA214EE7E1400DA84E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		95DFDCB014EE810E00DA84E1 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg.a; path = imagemagick_lib_iphone/IM_Test/IM/libjpeg.a; sourceTree = "<group>"; };
+		95DFDCB114EE810E00DA84E1 /* libMagickCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMagickCore.a; path = imagemagick_lib_iphone/IM_Test/IM/libMagickCore.a; sourceTree = "<group>"; };
+		95DFDCB214EE810F00DA84E1 /* libMagickWand.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMagickWand.a; path = imagemagick_lib_iphone/IM_Test/IM/libMagickWand.a; sourceTree = "<group>"; };
+		95DFDCB314EE810F00DA84E1 /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng.a; path = imagemagick_lib_iphone/IM_Test/IM/libpng.a; sourceTree = "<group>"; };
+		95DFDCB414EE810F00DA84E1 /* libtiff.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtiff.a; path = imagemagick_lib_iphone/IM_Test/IM/libtiff.a; sourceTree = "<group>"; };
+		95DFDCBB14EE825C00DA84E1 /* MWImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWImageView.h; sourceTree = "<group>"; };
+		95DFDCBC14EE825C00DA84E1 /* MWImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWImageView.m; sourceTree = "<group>"; };
+		95DFDCC614EE95D500DA84E1 /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +53,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95DFDCB514EE810F00DA84E1 /* libjpeg.a in Frameworks */,
+				95DFDCB614EE810F00DA84E1 /* libMagickCore.a in Frameworks */,
+				95DFDCB714EE810F00DA84E1 /* libMagickWand.a in Frameworks */,
+				95DFDCB814EE810F00DA84E1 /* libpng.a in Frameworks */,
+				95DFDCB914EE810F00DA84E1 /* libtiff.a in Frameworks */,
 				95DFDC8D14EE7E1300DA84E1 /* UIKit.framework in Frameworks */,
 				95DFDC8F14EE7E1300DA84E1 /* Foundation.framework in Frameworks */,
 				95DFDC9114EE7E1300DA84E1 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +87,7 @@
 		95DFDC8B14EE7E1300DA84E1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				95DFDCBA14EE811D00DA84E1 /* ImageMagick */,
 				95DFDC8C14EE7E1300DA84E1 /* UIKit.framework */,
 				95DFDC8E14EE7E1300DA84E1 /* Foundation.framework */,
 				95DFDC9014EE7E1300DA84E1 /* CoreGraphics.framework */,
@@ -77,6 +98,8 @@
 		95DFDC9214EE7E1300DA84E1 /* iMagickWand */ = {
 			isa = PBXGroup;
 			children = (
+				95DFDCBB14EE825C00DA84E1 /* MWImageView.h */,
+				95DFDCBC14EE825C00DA84E1 /* MWImageView.m */,
 				95DFDC9B14EE7E1300DA84E1 /* AppDelegate.h */,
 				95DFDC9C14EE7E1300DA84E1 /* AppDelegate.m */,
 				95DFDC9E14EE7E1300DA84E1 /* ViewController.h */,
@@ -90,12 +113,25 @@
 		95DFDC9314EE7E1300DA84E1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				95DFDCC614EE95D500DA84E1 /* iphone.png */,
 				95DFDC9414EE7E1300DA84E1 /* iMagickWand-Info.plist */,
 				95DFDC9514EE7E1300DA84E1 /* InfoPlist.strings */,
 				95DFDC9814EE7E1300DA84E1 /* main.m */,
 				95DFDC9A14EE7E1300DA84E1 /* iMagickWand-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95DFDCBA14EE811D00DA84E1 /* ImageMagick */ = {
+			isa = PBXGroup;
+			children = (
+				95DFDCB014EE810E00DA84E1 /* libjpeg.a */,
+				95DFDCB114EE810E00DA84E1 /* libMagickCore.a */,
+				95DFDCB214EE810F00DA84E1 /* libMagickWand.a */,
+				95DFDCB314EE810F00DA84E1 /* libpng.a */,
+				95DFDCB414EE810F00DA84E1 /* libtiff.a */,
+			);
+			name = ImageMagick;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +186,7 @@
 			files = (
 				95DFDC9714EE7E1300DA84E1 /* InfoPlist.strings in Resources */,
 				95DFDCA314EE7E1400DA84E1 /* ViewController.xib in Resources */,
+				95DFDCC714EE95D500DA84E1 /* iphone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +200,7 @@
 				95DFDC9914EE7E1300DA84E1 /* main.m in Sources */,
 				95DFDC9D14EE7E1300DA84E1 /* AppDelegate.m in Sources */,
 				95DFDCA014EE7E1400DA84E1 /* ViewController.m in Sources */,
+				95DFDCBD14EE825D00DA84E1 /* MWImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,7 +245,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -224,7 +262,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -236,7 +274,18 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iMagickWand/iMagickWand-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/imagemagick_lib_iphone/IM_Test/IM/include/**";
 				INFOPLIST_FILE = "iMagickWand/iMagickWand-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/imagemagick_lib_iphone/IM_Test/IM";
+				OTHER_CFLAGS = "-Dmacintosh=1";
+				OTHER_LDFLAGS = (
+					"-lMagickCore",
+					"-lMagickWand",
+					"-lz",
+					"-lbz2",
+					"-ljpeg",
+					"-lpng",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -247,7 +296,18 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iMagickWand/iMagickWand-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/imagemagick_lib_iphone/IM_Test/IM/include/**";
 				INFOPLIST_FILE = "iMagickWand/iMagickWand-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/imagemagick_lib_iphone/IM_Test/IM";
+				OTHER_CFLAGS = "-Dmacintosh=1";
+				OTHER_LDFLAGS = (
+					"-lMagickCore",
+					"-lMagickWand",
+					"-lz",
+					"-lbz2",
+					"-ljpeg",
+					"-lpng",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
